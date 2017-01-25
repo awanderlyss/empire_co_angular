@@ -19,4 +19,15 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
   })
 })
 
+
+  $stateProvider
+
+  .state('home',{
+      url: '/home',
+      templateUrl: 'index.html',
+      controller: function($scope){
+        $scope.products [gear]
+      }
+  })
+})
 })();
