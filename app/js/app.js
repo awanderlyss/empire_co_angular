@@ -4,6 +4,7 @@
   .module('empireCo', [
     'ui.router'
   ]);
+<<<<<<< HEAD
 empreCo.config(function($stateProvider, $urlRouterProvider){
   $urlProvider.otherwise('/home');
 
@@ -30,4 +31,6 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
       }
   })
 })
+=======
+>>>>>>> UI-View Products
 })();
