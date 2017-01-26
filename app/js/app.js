@@ -33,6 +33,7 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
     angular
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .module('empireCo', ['ngMaterial', 'ui.router']);
 >>>>>>> Added app.module dependencyui.router
 =======
@@ -52,4 +53,9 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
 })
 =======
 >>>>>>> UI-View Products
+=======
+    .module('empireCo', ['ngMaterial','ngParallax', 'ngResource','ui.router'])
+    .constant('API_URL', 'http://localhost8080/api');
+    
+>>>>>>> Update merge
 })();
