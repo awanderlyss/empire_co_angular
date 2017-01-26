@@ -32,11 +32,15 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
 
     angular
 <<<<<<< HEAD
+<<<<<<< HEAD
     .module('empireCo', ['ngMaterial', 'ui.router']);
 >>>>>>> Added app.module dependencyui.router
 =======
     .module('empireCo', ['ngMaterial','ngParallax', 'ui.router']);
 >>>>>>> Add angular material elements
+=======
+    .module('empireCo', ['ngMaterial','ngParallax', 'ngResource','ui.router']);
+>>>>>>> Update merge
 
   .state('home',{
       url: '/home',
