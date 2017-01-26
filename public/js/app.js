@@ -1,5 +1,6 @@
 (function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   angular
 <<<<<<< HEAD
@@ -63,4 +64,13 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
     .constant('API_URL', 'http://localhost:8080/api');
 
 >>>>>>> Relocate app directory folders:public/js/app.js
+=======
+
+    "use strict";
+
+    angular
+    .module('empireCo', ['ngMaterial','ngParallax', 'ngResource','ui.router'])
+    .constant('API_URL', 'http://localhost:8080/api');
+
+>>>>>>> Relocate app directory folders
 })();
