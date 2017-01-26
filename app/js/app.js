@@ -1,4 +1,5 @@
 (function(){
+<<<<<<< HEAD
 
   angular
 <<<<<<< HEAD
@@ -26,6 +27,12 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
 =======
   .module('empireCo', ['ngMaterial', 'ui.router']);
 >>>>>>> Got ui-router to function inside Angular-Material
+=======
+    "use strict";
+
+    angular
+    .module('empireCo', ['ngMaterial', 'ui.router']);
+>>>>>>> Added app.module dependencyui.router
 
   .state('home',{
       url: '/home',
