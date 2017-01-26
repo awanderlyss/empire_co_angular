@@ -31,8 +31,12 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
     "use strict";
 
     angular
+<<<<<<< HEAD
     .module('empireCo', ['ngMaterial', 'ui.router']);
 >>>>>>> Added app.module dependencyui.router
+=======
+    .module('empireCo', ['ngMaterial','ngParallax', 'ui.router']);
+>>>>>>> Add angular material elements
 
   .state('home',{
       url: '/home',
