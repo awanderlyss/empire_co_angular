@@ -55,7 +55,12 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
 >>>>>>> UI-View Products
 =======
     .module('empireCo', ['ngMaterial','ngParallax', 'ngResource','ui.router'])
+<<<<<<< HEAD:app/js/app.js
     .constant('API_URL', 'http://localhost8080/api');
     
 >>>>>>> Update merge
+=======
+    .constant('API_URL', 'http://localhost:8080/api');
+
+>>>>>>> Relocate app directory folders:public/js/app.js
 })();
