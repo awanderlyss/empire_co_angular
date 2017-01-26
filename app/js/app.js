@@ -1,6 +1,7 @@
 (function(){
 
   angular
+<<<<<<< HEAD
   .module('empireCo', [
     'ui.router'
   ]);
@@ -22,6 +23,9 @@ empreCo.config(function($stateProvider, $urlRouterProvider){
 
 
   $stateProvider
+=======
+  .module('empireCo', ['ngMaterial', 'ui.router']);
+>>>>>>> Got ui-router to function inside Angular-Material
 
   .state('home',{
       url: '/home',
