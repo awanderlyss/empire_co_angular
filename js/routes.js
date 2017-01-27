@@ -13,6 +13,7 @@
       });
     }
 })();
+<<<<<<< HEAD
 
 // })
 // //Route for New Products
@@ -28,3 +29,5 @@
 //   templateUrl: "../templates/pages/products/edit.html",
 //   controller: 'ProductsIndexController',
 //   controllerAs: 'vm'
+=======
+>>>>>>> Added to readme Content
